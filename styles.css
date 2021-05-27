@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+body {
+  background:#222;
+  height:100%;
+  margin:0;
+}
+li,p {
+  line-height: 2.0;
+  font-size:0.9em;
+}
+#container {
+  position:absolute;
+  margin-left: auto;
+  margin-right: auto;
+  width:90%;
+  background:#fff;
+}
+aside {
+  float:left; 
+  width:20%;    
+  padding:10px;
+  background-color: lightsteelblue;
+}
+
+#detail {
+  position: relative;
+  top: 50px;
+}
+
+#e-mail
+{
+  position:relative;
+  top:100px;
+}
+
+#main {
+  float:left;
+  width:70%;
+  padding:20px;
+}
+
+#main > section {
+  width:90%;
+  padding:20px;
+  margin:10px;
+  border-bottom:1px dotted #222;
+}
+
+section > p, section>table {
+  margin-left:50px;
+}
+
+/* 글자스타일 */
+aside h1 {
+  font-size:1.8em;
+  font-variant: small-caps;
+}
+aside h2 {
+  font-size:1.2em;
+}
+#namecard p {
+  font-size:0.9em;
+  color:rgb(99, 99, 99);
+  /* font-style:italic; */
+}
+
+.subtitle {
+  font-size:1.5em;
+  /* padding-left:45px; */
+  line-height:0.9em;
+}
+.subtitle::before {
+  content:"";
+  display:block;
+  background:url("../images/note.png") no-repeat;
+  width:24px;
+  height:24px;
+  float:left;
+  margin:0 15px 0 0;
+}
+section > p {
+  font-size:0.9em;
+}
+
+table {
+  width:70%;  /* 표의 너비 */
+  border:1px solid #222; /* 1픽셀짜리 표 테두리 */
+  border-collapse: collapse; /* 중복되는 표와 셀의 테두리를 한 줄로 표시 */
+}
+thead {
+  background:#eee;  /* 제목 행의 배경 색 */
+}
+th, td {
+  border:1px solid #ccc; /* 1픽셀짜리 셀 테두리 */
+  padding:5px;  /* 셀 테두리와 셀 내용 사이의 여백(패딩) */
+  font-size:0.8em;  /* 셀의 글자 크기 */
+}
