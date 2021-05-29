@@ -12,21 +12,23 @@ li,p {
 }
 #container {
   position:absolute;
-  margin-left: auto;
-  margin-right: auto;
-  width:90%;
+  left:50%;
+  margin-left:-450px;
+  width:900px;
+  height:100%;
   background:#fff;
 }
 aside {
-  float:left; 
-  width:20%;    
-  padding:10px;
-  background-color: lightsteelblue;
+  float:left;
+  width:300px;    
+  padding:20px 50px;
+  height:100%;
+  background:lightsteelblue;
 }
 
 #detail {
   position: relative;
-  top: 50px;
+  top: 80px;
 }
 
 #e-mail
@@ -35,14 +37,24 @@ aside {
   top:100px;
 }
 
+#github{
+  position:relative;
+  top:200px;
+}
+
+#github h2{
+  font-size: small;
+}
+
 #main {
-  float:left;
-  width:70%;
+  float:right;
+  width:600px;
+  height:100%;
   padding:20px;
 }
 
 #main > section {
-  width:90%;
+  width:500px;
   padding:20px;
   margin:10px;
   border-bottom:1px dotted #222;
