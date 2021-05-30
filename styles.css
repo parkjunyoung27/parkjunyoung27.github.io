@@ -28,23 +28,21 @@ aside {
 
 #detail {
   position: relative;
-  top: 80px;
+  top: 30px;
 }
 
-#e-mail
+#contact
 {
   position:relative;
   top:100px;
 }
 
-#github{
-  position:relative;
-  top:200px;
+#contact a{
+  text-decoration: none; /*밑줄 없앰*/
+  color: #222;
 }
 
-#github h2{
-  font-size: small;
-}
+
 
 #main {
   float:right;
@@ -109,3 +107,18 @@ th, td {
   padding:5px;  /* 셀 테두리와 셀 내용 사이의 여백(패딩) */
   font-size:0.8em;  /* 셀의 글자 크기 */
 }
+
+#second{
+  margin-top: 30px;
+  text-align: center;
+}
+
+#contact ul{
+ padding-left:10%; /*목록 들여쓰지 않기*/
+}
+
+#contact ul li{
+  /* padding-left: 0; 목록 들여쓰지 않기*/
+  /*display: inline-block; 항목을 가로로 배열*/
+  width: 80px;
+ }
